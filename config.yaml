@@ -1,0 +1,18 @@
+credential:
+  user: leonardo@discente.ufg.br # dev, user
+  password: '20251hhh' # json com perguntas e respostas ex.: 20251
+
+domain:
+  discente: "discente.ufg.br" # string que armazena o domínio da instituição para discentes
+  docente: "docente.ufg.br" # string que armazena o domínio da instituição para docentes
+
+course:
+  name: 'at'
+
+discipline:
+  course_name: 'aaaaaa'
+  name: 'at'
+  "workload": "128"
+  "day": [1,2,3]
+  "shift": "noturno"
+  "classroom": [2,3]

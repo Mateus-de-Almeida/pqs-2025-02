@@ -1,0 +1,33 @@
+# Arquivos de bytecode Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Ambientes virtuais
+env/
+.env/
+venv/
+.venv/
+
+# Editor e IDEs
+.idea/ # Para o PyCharm/IntelliJ
+.vscode/ # Para o VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Sistema Operacional
+.DS_Store # Mac
+Thumbs.db # Windows
+
+# Arquivos de teste e build
+dist/
+build/
+*.egg-info/
+
+# Arquivos de log e banco de dados
+*.log
+*.sqlite3
+
+# Arquivos locais de representação de tabelas de bancos de dados em .json
+lib/
