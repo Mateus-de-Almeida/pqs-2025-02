@@ -72,7 +72,7 @@ def addUser(type_:EnvironmentVariables, name:str, code:str):
             users = {}
     
 
-    users[code] = {'name': name, 'type':type_.value}
+    users[code] = {'name': name, 'type':type_.value, 'discipline': []}
     with open(path, mode="w", encoding='utf8') as f:
         json.dump(users, f, indent= 4)
     
